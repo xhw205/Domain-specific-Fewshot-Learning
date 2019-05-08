@@ -8,7 +8,7 @@ Pytorch implementation of the Trans paper "Few-shot Learning for Domain-specific
 
 <img src="https://github.com/xhw205/Domain-specific-Fewshot-Learning/blob/master/images/center.gif" alt="Centerloss" width="420">
 
-<img src="https://github.com/xhw205/SpecialDomains-Fewshot-Learning/blob/master/images/cn.gif" alt="CNloss" width="420">
+<img src="https://github.com/xhw205/Domain-specific-Fewshot-Learning/blob/master/images/cn.gif" alt="CNloss" width="420">
 
 For example,  the 2-th category **Pullover** (green color) and  6-th category **Shirt** (pink color).  Centerloss is difficult to form their own cluster fastly and robustly.
 
