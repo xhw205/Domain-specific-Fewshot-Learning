@@ -32,7 +32,7 @@ dataloaders_train = torch.utils.data.DataLoader(image_datasets_train, batch_size
                                              shuffle=True, num_workers=8)
 dataset_sizes_train = len(image_datasets_train)
 criterion = nn.CrossEntropyLoss()
-optimizer =  torch.optim.SGD(model.parameters(), lr=0.001, momentum=0.9, weight_decay=1e-4) #weight_ buyao
+optimizer =  torch.optim.SGD(model.parameters(), lr=0.001, momentum=0.9, weight_decay=1e-4) 
 exp_lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=20, gamma=0.5)
 centerloss = CenterLoss(10,2).cuda()
 optimzer4center = torch.optim.SGD(centerloss.parameters(), lr=0.5)
