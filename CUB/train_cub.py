@@ -21,7 +21,7 @@ data_transforms = {
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
     ])
 }
-datapath = '/home/ws/datasets/CUB_200_2011/'
+datapath = '/home/ws/datasets/CUB_200_2011/'  #your own path
 train_dataset = task.ImageLoader(
     datapath,
     transform=data_transforms['train'],
@@ -87,7 +87,7 @@ def train(model, criterion, optimizer, scheduler,num_epochs=50,CNloss=True):
         if epoch_loss < best_loss:
             print("save!")
             best_loss = epoch_loss
-            torch.save(model.state_dict(), "/home/ws/xhw205/CUB/closs_highv2.pkl")
+            torch.save(model.state_dict(), "./models/temp.pkl")
 
 if __name__ == "__main__":
     criterion = nn.CrossEntropyLoss()
