@@ -1,5 +1,5 @@
 # Domain-specific-Fewshot-Learning
-Pytorch implementation of the Trans paper "[Few-shot Learning for Domain-specific Fine-grained Image Classification](https://arxiv.org/abs/1907.09647)"
+Pytorch implementation of the Trans paper "[Few-shot Learning for Domain-specific Fine-grained Image Classification](https://arxiv.org/abs/1907.09647v2)"
 
 ##  Centerloss and CNloss on FashionMNIST
 
