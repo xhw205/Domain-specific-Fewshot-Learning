@@ -1,14 +1,14 @@
 # Domain-specific-Fewshot-Learning
-Pytorch implementation of the Trans paper "[Few-shot Learning for Domain-specific Fine-grained Image Classification](https://arxiv.org/abs/1907.09647v2)"
+Pytorch implementation of the Trans paper "[Few-Shot Learning for Domain-Specific Fine-Grained Image Classification](https://ieeexplore.ieee.org/abstract/document/9027090)"
 
 ##  Centerloss and CNloss on FashionMNIST
 
 
 ### Space distribution
 
-<img src="https://github.com/xhw205/Domain-specific-Fewshot-Learning/blob/master/images/center.gif" alt="Centerloss" width="420">
+CenterLoss <img src="https://i.loli.net/2021/09/14/fPeZtQFV6YUwXkq.gif" alt="Centerloss" width="420">
 
-<img src="https://github.com/xhw205/Domain-specific-Fewshot-Learning/blob/master/images/cn.gif" alt="CNloss" width="420">
+CNLoss        <img src="https://i.loli.net/2021/09/14/IK9WERf8h4CFqJk.gif" alt="CNloss" width="420">
 
 For example,  the 2-th category **Pullover** (green color) and  6-th category **Shirt** (pink color).  Centerloss is difficult to form their own cluster fastly and robustly.
 
@@ -108,5 +108,3 @@ The model may have reached the data bottleneck, using "Att"  only brings a sligh
 
 + Please refer to the citations in this paper for miniDogs datasets.
 + The center point dimension of  loss functions can be set by itself.
-
-We look forward to new breakthroughs for scholars in the future.
