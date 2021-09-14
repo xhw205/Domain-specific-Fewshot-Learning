@@ -6,9 +6,9 @@ Pytorch implementation of the Trans paper "[Few-Shot Learning for Domain-Specifi
 
 ### Space distribution
 
-CenterLoss <img src="https://i.loli.net/2021/09/14/fPeZtQFV6YUwXkq.gif" alt="Centerloss" width="420">
+<img src="https://i.loli.net/2021/09/14/fPeZtQFV6YUwXkq.gif" alt="Centerloss" width="420">
 
-CNLoss        <img src="https://i.loli.net/2021/09/14/IK9WERf8h4CFqJk.gif" alt="CNloss" width="420">
+<img src="https://i.loli.net/2021/09/14/IK9WERf8h4CFqJk.gif" alt="CNloss" width="420">
 
 For example,  the 2-th category **Pullover** (green color) and  6-th category **Shirt** (pink color).  Centerloss is difficult to form their own cluster fastly and robustly.
 
